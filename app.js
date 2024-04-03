@@ -43,8 +43,8 @@ app.listen(PORT, () => {
 });
 
 //Keep neo4j db alive 
-const neo4jEndpoint = 'http://localhost:3000'; // for local machine
 // const neo4jEndpoint = 'http://localhost:3000'; // for local machine
+const neo4jEndpoint = 'https://prog-assign2-095a3665c190.herokuapp.com'; // for live server
 // Function to check Neo4j connectivity
 async function checkNeo4jConnectivity() {
   try {
